@@ -1,3 +1,3 @@
-C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Tarea 2/cmake-build-debug/CMakeFiles/Tarea_2.dir
-C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Tarea 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Tarea 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Recursividad/cmake-build-debug/CMakeFiles/Tarea_2.dir
+C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Recursividad/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Recursividad/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Tarea 2
+# Install script for directory: C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Recursividad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Tarea 2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Tareas/Recursividad/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

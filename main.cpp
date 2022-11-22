@@ -20,11 +20,11 @@ public:
     void HANOI(int n, char Sour, char Aux, char Des) {
         if (n == 1) {
             cout << "Mover disco " << n << " de " << Sour << " a " << Des << endl;
-            return;
+        }else{
+            HANOI(n - 1, Sour, Des, Aux);
+            cout << "Mover disco " << n << " de " << Sour << " a " << Des << endl;
+            HANOI(n - 1, Aux, Sour, Des);
         }
-        HANOI(n - 1, Sour, Des, Aux);
-        cout << "Mover disco " << n << " de " << Sour << " a " << Des << endl;
-        HANOI(n - 1, Aux, Sour, Des);
 
     }
 };
