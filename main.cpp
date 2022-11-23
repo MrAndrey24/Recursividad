@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/*
+ * Author: Andrey Acosta
+ */
+
 class Disco {
 private:
     int numeroDiscos;
@@ -26,7 +30,7 @@ public:
          *
          */
         if (n == 1) {
-            cout << "Mover disco " << n << " de " << Sour << " a " << Des << endl;
+            cout << "Move disk" << n << " from " << Sour << " to " << Des << endl;
         } else {
             /*
              *
@@ -41,7 +45,7 @@ public:
              * Example: moving 7 disks would be so p(7) = 2 * 7 -1 that this equals 127 steps
              */
             HANOI(n - 1, Sour, Des, Aux);
-            cout << "Mover disco " << n << " de " << Sour << " a " << Des << endl;
+            cout << "Move disk " << n << " from " << Sour << " to " << Des << endl;
             HANOI(n - 1, Aux, Sour, Des);
         }
 
@@ -52,7 +56,7 @@ public:
 int main() {
     int n;
 
-    cout << "Numeros de Discos:";
+    cout << "Number of Disk:";
     cin >> n;
     //calling the HaNOI
     Disco().HANOI(n, 'A', 'B', 'C');
