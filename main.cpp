@@ -30,7 +30,7 @@ public:
          *
          */
         if (n == 1) {
-            cout << "Move disk" << n << " from " << Sour << " to " << Des << endl;
+            cout << "Move disk " << n << " from " << Sour << " to " << Des << endl;
         } else {
             /*
              *
